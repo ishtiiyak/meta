@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" required minlength="2">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" required minlength="2">
+        </div>
+        <button type="submit">Log In</button>
+        <fieldset> 
+            <legend>Personal Info</legend> 
+            <label for="fname">First name:</label><br> 
+            <input type="text" id="fname" name="fname" value="John"><br> 
+            <label for="lname">Last name:</label><br> 
+            <input type="text" id="lname" name="lname" value="Doe"><br> 
+          </fieldset> 
+          
+          <fieldset> 
+            
+            <label for="pdegree">Primary degree:</label><br> 
+            <input type="text" id="pdegree" name="degree" value="Masters"><br> 
+            <label for="fos">Last name:</label><br> 
+            <input type="text" id="fos" name="field" value="Psychology"><br> 
+          </fieldset>
+
+
+    </form>
+<br><br><br>
+
+    <form>
+        <div>
+            <label for="email_address">Email Address</label>
+            <input type="email" id="email_address" name="email_address">
+        </div>
+        <div>
+            <label for="booking_date">Date of Booking</label>
+            <input type="date" id="booking_date" name="booking_date">   
+        </div>
+        <div>
+            <label for="people">Number of people</label>
+            <input type="number" id="people" min="1" max="8" name="people">        
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" id="agree" name="agree" required> 
+                I agree to the cancellation policy
+            </label>
+        </div>
+        <button type="submit">Book Now</button>
+    </form>
+
+    <iframe srcdoc="https://www.facebook.com" allow="camera; microphone"> </iframe> 
+</body>
+</html>

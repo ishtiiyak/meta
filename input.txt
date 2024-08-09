@@ -1,0 +1,5 @@
+total 9
+drwxr-xr-x 1 Aly.S 197121  0 Aug  1 12:54 html_and_css_in_depth/
+-rw-r--r-- 1 Aly.S 197121  0 Aug  9 09:58 input.txt
+drwxr-xr-x 1 Aly.S 197121  0 Aug  8 14:23 introduction_to_javascript/
+-rwxr-xr-x 1 Aly.S 197121 31 Aug  8 18:16 testshell.sh*

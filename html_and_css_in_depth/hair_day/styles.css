@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.flex{
+    display: flex;
+    
+}
+.grid{
+    display: grid;
+}
+.empty{
+    background-color: rgb(201, 89, 89);
+    padding: 0.5rem;
+}
+
+/*header*/
+#main_logo{
+    width: 20vw;
+    padding:  0 0 0 2rem;
+}
+header div{
+    justify-content: space-between;
+    background-color: #e3e4da; 
+}
+ul{
+    list-style-type: none;
+    gap: 6vw;
+    padding: 1.7rem;
+    height: 8vh;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(44, 40, 40);
+    position: relative;
+    padding-bottom: 4px;
+    font-size: 2vw;
+   
+
+
+    
+}
+
+
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: .1rem;
+    bottom: 0;
+    left: 0;
+   
+    background-color: black; /* or your desired color */
+    transform-origin: center;
+    transition: transform 0.21s ease-out;
+}
+
+nav a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+
+}
+nav a:hover{
+    color: #c90d0d;
+    transition: font-size .21s;
+    transform-origin: center;
+ 
+}
+
+
+
+
+
+
+
+#big_logo{
+    height: 20vh;
+    padding-left: 40px;
+    
+}
+
+main.container{
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(129, 138, 130);
+
+   
+    
+}
+main article{
+    padding:10px 29px;
+    border: 3px solid rgb(102, 66, 62);
+    margin: 10px;
+}
+main article:hover{
+    background-color: rgb(209, 160, 99);
+}
+h1::before{
+    content: '';
+    position: absolute;
+    background-image: url("img/download.jfif") ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+    opacity: 50%;
+
+    
+ }
+ 
+h1{
+    height: 30vh;
+    padding: 50px;
+    color: #12130b;
+    
+}
+
+h2{
+    font-size: 1.7rem;
+    padding-bottom: 20px;
+   
+}
+.article_img{
+    width: 100%;
+    border-radius: 51%;
+    padding-bottom: 1rem;
+}
+
+footer{
+    background-color: rgb(57, 56, 68);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    p
+}
+#copyright{
+    padding-left: 2.8rem;
+    font-size: 1.12rem;
+}
+#terms{
+    color: aliceblue;
+    text-align: center;
+}
+#termsbtn a{
+    color: rgb(228, 13, 13);
+    text-decoration: none;
+    padding-right: 40px;
+}
+#termsbtn a:hover{
+    color: bisque;
+}
+#footer_logo{
+    width: 10rem ;
+    height: 3rem;
+}
